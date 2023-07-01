@@ -23,9 +23,9 @@ Future<void> signInCheck() async {
       // If user type is not defined, redirect to login info screen
       Get.offAll(() => const login_info());
     } else if (userType == "student") {
-      Get.off(() => home(userType: false));
+      Get.off(() => const home(userType: false));
     } else if (userType == "admin") {
-      Get.off(() => home(userType: true));
+      Get.off(() => const home(userType: true));
     } else {
       Get.bottomSheet(
           Column(

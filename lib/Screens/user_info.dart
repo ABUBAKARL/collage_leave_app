@@ -9,7 +9,7 @@ class user_info extends StatefulWidget {
   final String profile;
   final int rollno;
   final int semester;
-  user_info({
+  const user_info({
     super.key,
     required this.name,
     required this.department,

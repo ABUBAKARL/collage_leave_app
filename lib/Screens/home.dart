@@ -7,7 +7,7 @@ import '../widgets/floating_action.dart';
 import '../widgets/info_drawer.dart';
 class home extends StatefulWidget {
  final bool userType;
-  home({super.key, required this.userType});
+  const home({super.key, required this.userType});
   @override
   State<home> createState() => _homeState();
 }

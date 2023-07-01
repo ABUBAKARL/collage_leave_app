@@ -6,7 +6,7 @@ import '../Screens/leave_send.dart';
 
 class student_floating_action extends StatelessWidget {
   final bool usertype;
-   student_floating_action({super.key,required this.usertype});
+   const student_floating_action({super.key,required this.usertype});
 
   @override
   Widget build(BuildContext context) {

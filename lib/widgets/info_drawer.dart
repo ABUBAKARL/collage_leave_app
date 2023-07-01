@@ -14,7 +14,7 @@ FirebaseAuth _auth = FirebaseAuth.instance;
 FirebaseFirestore _firestore = FirebaseFirestore.instance;
 class info_drawer extends StatelessWidget {
   final bool userType;
-  info_drawer({super.key, required this.userType});
+  const info_drawer({super.key, required this.userType});
   @override
   Widget build(BuildContext context) {
     return Drawer(

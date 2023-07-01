@@ -8,7 +8,7 @@ CollectionReference _firestore =
 
 class announcement extends StatelessWidget {
  final bool userType;
-  announcement({super.key, required this.userType});
+  const announcement({super.key, required this.userType});
   @override
   Widget build(BuildContext context) {
     return Column(

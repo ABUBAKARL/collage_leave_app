@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 class details_chip extends StatelessWidget {
   final String data;
-  details_chip({super.key, required this.data});
+  const details_chip({super.key, required this.data});
   @override
   Widget build(BuildContext context) {
     return SizedBox(
